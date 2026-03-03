@@ -1,0 +1,22 @@
+Goal
+Rapidly separate informational/noise from true risk, assign ownership, and drive consistent next steps. 
+Inputs
+•	DLP alert record (policy match, detected data type, action, context, user, destination) 
+•	Related activity history (patterns over time) 
+Steps
+1.	Confirm the Alert Type
+	Single event vs aggregate/threshold alert  
+	If aggregate: note threshold basis (count, volume, time window) 
+2.	Initial Classification
+	Potential False Positive: expected workflow; low-risk destination; data mis-detected 
+	Potential True Positive: risky destination/action; repeated pattern; unusual context 
+3.	Set Priority (Recommended Template)
+	Base on: 
+	content risk (sensitivity) 
+	exfiltration risk (destination/action) 
+	policy risk (how the policy is intended to behave) 
+4.	Assign Ownership + Document
+	Assign triage owner and add tags/comments for tracking  
+	If your org uses a case/ticketing system, ensure a trackable record is created  
+Output
+•	“Close as informational” or “Escalate to investigation” with owner + priority + notes. 
