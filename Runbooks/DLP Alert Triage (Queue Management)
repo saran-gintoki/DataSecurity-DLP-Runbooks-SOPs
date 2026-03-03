@@ -12,9 +12,9 @@ Steps
 	Potential True Positive: risky destination/action; repeated pattern; unusual context 
 3.	Set Priority (Recommended Template)
 	Base on: 
-	content risk (sensitivity) 
-	exfiltration risk (destination/action) 
-	policy risk (how the policy is intended to behave) 
+			content risk (sensitivity) 
+			exfiltration risk (destination/action) 
+			policy risk (how the policy is intended to behave) 
 4.	Assign Ownership + Document
 	Assign triage owner and add tags/comments for tracking  
 	If your org uses a case/ticketing system, ensure a trackable record is created  
