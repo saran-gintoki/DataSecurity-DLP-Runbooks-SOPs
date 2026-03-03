@@ -1,0 +1,20 @@
+Runbook: DLP Investigation (Evidence → Conclusion)
+Goal
+Build a complete picture of what happened and decide: benign, policy gap, or incident. 
+Steps
+1.	Review Alert Details
+o	What rule/policy matched and why 
+o	What sensitive content was detected 
+o	What action occurred (share/copy/upload/paste/print/etc.) 
+2.	Gather Related Activity
+o	Look for patterns: repeated attempts, multi-step behavior, cross-location attempts  
+3.	Determine Root Cause Category
+o	Accidental user behavior (education opportunity) 
+o	Policy gap / mis-scope (tuning needed) 
+o	Suspicious / malicious indicators (potential escalation) 
+4.	Decide Outcome
+o	Informational: document and close 
+o	True Positive – Low/Medium: user follow-up + scoped remediation + policy tuning 
+o	True Positive – High Risk: invoke incident response path consistent with your organization (detection/analysis → containment → eradication → recovery → post-incident). 
+Output Artifacts
+•	Investigation notes, ownership, status update (resolved/closed), and tuning recommendation. 
