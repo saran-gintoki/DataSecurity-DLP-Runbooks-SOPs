@@ -3,10 +3,10 @@ The files in this repo are a tool‑agnostic set of Workflows, Runbooks, and SOP
 
 DLP Operating Model (Tool Agnostic Vocabulary)
 These runbooks assume any DLP solution will have the same building blocks:
-•	Data Signals: content (sensitive patterns / labels), context (location/app/device/user), action (share/copy/upload/print/etc.). 
-•	Controls / Enforcement Points: email, collaboration, cloud storage, endpoints, browsers/web apps, remote sessions. 
-•	Policy Modes: visibility-only (audit), guidance (warn), enforcement (block, block with override), and simulation (evaluate + log, no enforcement). 
-•	Alerting + Case Handling: alerts/incident queue, triage, investigation, remediation, tuning, closure. 
+    •	Data Signals: content (sensitive patterns / labels), context (location/app/device/user), action (share/copy/upload/print/etc.). 
+    •	Controls / Enforcement Points: email, collaboration, cloud storage, endpoints, browsers/web apps, remote sessions. 
+    •	Policy Modes: visibility-only (audit), guidance (warn), enforcement (block, block with override), and simulation (evaluate + log, no enforcement). 
+    •	Alerting + Case Handling: alerts/incident queue, triage, investigation, remediation, tuning, closure. 
 
 1) Enterprise Workflow: DLP Program Lifecycle (End to End)
 Workflow Goal
