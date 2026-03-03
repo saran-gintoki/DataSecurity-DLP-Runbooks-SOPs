@@ -1,13 +1,13 @@
 Runbook: DLP Response Actions (Mitigate + Close)
 Response Menu (choose based on outcome)
 1.	No Action / Informational Close
-o	Mark as informational and document rationale 
+	Mark as informational and document rationale 
 2.	User Education Response
-o	Follow up with user: explain why it was risky; point to approved workflows 
+	Follow up with user: explain why it was risky; point to approved workflows 
 3.	Access / Exposure Reduction
-o	Remove or revoke access to exposed content (where applicable) 
-o	Apply or correct classification/labeling to prevent recurrence 
+	Remove or revoke access to exposed content (where applicable) 
+	Apply or correct classification/labeling to prevent recurrence 
 4.	Account / Endpoint Containment (High Risk)
-o	If evidence suggests theft/exfiltration or broader compromise, align to incident response containment actions and escalation paths (containment, disabling/rotating credentials, isolating devices, evidence handling, escalation). 
+	If evidence suggests theft/exfiltration or broader compromise, align to incident response containment actions and escalation paths (containment, disabling/rotating credentials, isolating devices, evidence handling, escalation). 
 5.	Closeout
-o	Add notes/comments, update status to resolved, assign ownership if needed 
+	Add notes/comments, update status to resolved, assign ownership if needed 
