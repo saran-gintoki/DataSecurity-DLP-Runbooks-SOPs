@@ -1,0 +1,34 @@
+SOP: Endpoint DLP Enablement & Operations
+Purpose
+Extend DLP protections to user devices to reduce exfiltration risk (USB, unsanctioned apps/sites, clipboard, printing, remote sessions). 
+Inputs
+•	Endpoint population + prerequisites + onboarding method (scripts/MDM/GPO equivalents) 
+•	Endpoint control goals (monitor vs block) 
+Process
+1.	Pre Implementation Checks
+o	Identify sensitive data on endpoints to protect 
+o	Stakeholder alignment on scope/objectives 
+o	Ensure licensing/permissions as required in your environment 
+2.	Onboard Devices
+o	Choose onboarding approach (local scripts/central policy/MDM equivalent) 
+o	Ensure proxy/network settings are compatible
+3.	Configure Endpoint DLP Settings (Control Surface)
+o	Browser restrictions + removable media/Bluetooth controls + “just in time” evaluation concept 
+4.	Define Endpoint Policies
+o	Conditions (data + context + action) + monitoring activities + actions 
+5.	Pilot + Feedback + Gradual Rollout
+o	Pilot group first, analyze feedback, expand in phases to avoid disruption 
+6.	Operate: Monitor and Respond
+o	Review endpoint activity events and alerts; adjust scope/detection/actions as needed 
+Endpoint Activity Coverage (from your notes)
+Use these as a checklist of actions to decide: audit vs warn vs block.  
+•	Upload to restricted domains / unallowed browsers 
+•	Paste to browsers 
+•	Copy to clipboard/USB/network share
+•	Copy via unallowed Bluetooth apps
+•	Copy via RDP 
+•	Create/rename sensitive items 
+•	Print (including virtual) 
+•	Access by restricted apps 
+Outputs
+•	Endpoint DLP deployment record: pilot scope, controls enabled, restricted actions, monitoring dashboard/alert route, tuning log. 

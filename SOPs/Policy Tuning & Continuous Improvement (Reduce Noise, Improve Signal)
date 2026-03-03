@@ -1,0 +1,21 @@
+SOP: Policy Tuning & Continuous Improvement (Reduce Noise, Improve Signal)
+Purpose
+Continuously refine DLP to reduce false positives and align enforcement with real workflows. 
+Inputs
+•	Alert outcomes (FP/TP), override patterns, noisy rules, impacted workflows 
+Process
+1.	Post Alert Review
+o	Did the policy work as intended? 
+o	Was the rule too broad?
+o	Were notifications appropriate? 
+2.	Tuning Actions
+o	Refine detection conditions 
+o	Narrow/expand scope 
+o	Adjust actions (warn vs block) 
+o	Adjust alert thresholds (single vs aggregate) 
+3.	Re validate
+o	Use simulation again after meaningful changes 
+4.	Document
+o	Update the policy record with what changed and why (recommended template)
+Output
+•	Versioned tuning log + reduced noise and improved detection accuracy over time. 
