@@ -1,0 +1,43 @@
+SOP: DLP Policy Design & Rollout (Tool Agnostic)
+Purpose
+Create DLP policies deliberately (intent → detection → scope → actions → validation → enforcement) so policies act as guardrails instead of obstacles. 
+Inputs
+•	Risk scenario definition and “success looks like” statement 
+•	Data definition (labels/patterns) + context constraints + risky actions 
+•	Stakeholders and scope boundaries 
+Process (Detailed)
+1.	Intent Statement (1–2 sentences)
+	The behavior you want to influence
+	Which scenario(s) matter most
+	What success metrics are (examples below as recommended template) 
+2.	Detection Design
+	Use a combination of: 
+    	Content: sensitive info types / labeled content 
+    	Context: location, destination, app/device, audience 
+    	Action: share/copy/upload/paste/print/etc. 
+	Prefer “clear and explainable” early detection; expand later (noise is harder to undo). 
+3.	Scoping Rules (Start Narrow)
+	Pilot group representative of different roles/departments 
+	Limit initial locations to where risk truly occurs 
+	Use inclusion/exclusion patterns to reduce noise (recommended template). 
+4.	Action Strategy (Graduated Controls)
+	Audit for baseline visibility 
+	Warn to educate without interrupting work 
+	Block with override when occasional legitimate business needs exist 
+	Block when risk is clearly unacceptable 
+5.	Simulation Validation 
+	Run policy in simulation: conditions are evaluated and logged, not enforced 
+	Review: 
+      	Are the right types of data detected? 
+      	Are legitimate activities flagged (false positives)? 
+      	Is scope too broad/narrow? 
+      	Are alerts meaningful or just noise? 
+6.	Enforcement Readiness Criteria
+	Triggers align with expected scenarios 
+	False positives are limited and explainable 
+	Users can understand why enforcement occurs (policy tips/notifications) 
+7.	Deployment
+	Phased rollout (pilot → expanded → full) 
+	Monitor early enforcement impacts and overrides 
+Outputs
+•	Policy record: intent, scope, detection logic summary, action ladder, simulation results summary, enforcement date, owner. 
